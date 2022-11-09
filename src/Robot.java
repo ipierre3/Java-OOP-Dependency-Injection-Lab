@@ -5,14 +5,14 @@ public class Robot {
     public Weapon weapon;
 
     //Constructor
-    public Robot(Weapon weapon) {
-        this.name = "AstroBoy";
+    public Robot(String name, Weapon weapon) {
+        this.name = name;
         this.weapon = weapon;
 
     }
 
     //Methods (CAN DO)
     public void Attack() {
-        System.out.println(this.name + " attacks with his " + this.weapon.name + " for " + this.weapon.power + " damage ");
+        System.out.println(this.name + " attacks with " + this.weapon.name + " for " + this.weapon.power + " damage ");
     }
 }
