@@ -5,9 +5,9 @@ public class Robot {
     public Weapon weapon;
 
     //Constructor
-    public Robot() {
+    public Robot(Weapon weapon) {
         this.name = "AstroBoy";
-        this.weapon = new Weapon("Gun", 50);
+        this.weapon = weapon;
 
     }
 
