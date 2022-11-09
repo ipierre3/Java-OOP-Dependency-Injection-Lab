@@ -7,7 +7,7 @@ public class Main {
 
         Railgun Railgun = new Railgun();
 
-        Robot robot_one = new Robot("Astroboy", Lightsaber);
+        Robot robot_one = new Robot("Astro-boy", Lightsaber);
 
         Robot robot_two = new Robot("Spock-bot", Vulcan_Nerve_Pinch);
 
@@ -16,6 +16,9 @@ public class Main {
         robot_one.Attack();
         robot_two.Attack();
         robot_three.Attack();
+
+        Attacker Filthy_Organic_one = new Filthy_Organic("John", 15);
+        Filthy_Organic_one.Attack();
 
     }
 }
