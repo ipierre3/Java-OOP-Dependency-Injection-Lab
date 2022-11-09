@@ -9,9 +9,9 @@ public class Main {
 
         Robot robot_one = new Robot("Astroboy", Lightsaber);
 
-        Robot robot_two = new Robot("Spock-bot",Vulcan_Nerve_Pinch);
+        Robot robot_two = new Robot("Spock-bot", Vulcan_Nerve_Pinch);
 
-        Robot robot_three = new Robot("XJ9",Railgun);
+        Robot robot_three = new Robot("XJ9", Railgun);
 
         robot_one.Attack();
         robot_two.Attack();
